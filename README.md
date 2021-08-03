@@ -18,14 +18,15 @@
 - Wanneer je op een taxi klikt ga je terug naar view 2, waar je deze taxi weer kan aanpassen.
 
 ## Classes
-- Taxi class
+
+### Taxi class
 - id
 - taxinummer
 - kenteken
 - kilometerstand
 - benzinestand
 
-- User class(admin login)
+### User class(admin login)
 - id
 - username / e-mailadres
 - password
