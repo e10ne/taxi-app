@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('cabs.index');
+});
+
+Route::get('/map', function() {
+    return view('cabs.map');
+});
+
+Route::get('/show', function() {
+    return view('cabs.show');
 });
